@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+@font-face {
+    font-family: Jetbrains;
+    src: url(assets/JetBrainsMono-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono';
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(131, 58, 180, 0.404);
+    background: linear-gradient(34deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-repeat: no-repeat;
+    gap: 2rem;
+}
+
+body p{
+    color: white;
+}
+
+main{
+    background: rgba(131, 58, 180, 0.404);
+    background: linear-gradient(-1124deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-repeat: no-repeat;
+    width: 33rem;
+    height: 46rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.div-align-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.div-align-all h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Francois One';
+}
+
+.div-align-inpts{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.div-align-inpts span{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: white;
+    padding-left: 6px;
+}
+
+#inpt-year{
+    width: 19.5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    border: none;
+    outline-color: red;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+#inpt-height{
+    width: 19.5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    border: none;
+    outline-color: red;
+    font-size: 16px;
+}
+
+#inpt-weight{
+    width: 19.5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+    border: none;
+    outline-color: red;
+    font-size: 16px;
+}
+
+.div-result{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    border-radius: 7px;
+}
+
+.div-align-btn{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.div-align-btn button{
+    width: 8.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    outline-color: red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div-align-btn button:hover{
+    background-color: rgb(190, 190, 190);
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.div-align-results{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+.align-error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.subdiv-align-results{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.subdiv-align-results span{
+    display: flex;
+    justify-content: center;
+}
+
+#span-category{
+    color: black;
+    font-size: 16px;
+}
+
+#span-imc{
+    color: black;
+    font-size: 16px;
+}
+
+#span-error{
+    display: none;
+    font-size: 15px;
+    color: rgb(0, 26, 255);
+}
+
+.align-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.align-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+
